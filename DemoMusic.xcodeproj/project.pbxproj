@@ -9,21 +9,55 @@
 /* Begin PBXBuildFile section */
 		045944CE26FC412800996B93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045944CD26FC412800996B93 /* AppDelegate.swift */; };
 		045944D026FC412800996B93 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045944CF26FC412800996B93 /* SceneDelegate.swift */; };
-		045944D226FC412800996B93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045944D126FC412800996B93 /* ViewController.swift */; };
 		045944D526FC412800996B93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045944D326FC412800996B93 /* Main.storyboard */; };
 		045944D726FC412B00996B93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045944D626FC412B00996B93 /* Assets.xcassets */; };
 		045944DA26FC412B00996B93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045944D826FC412B00996B93 /* LaunchScreen.storyboard */; };
+		045944E226FC440F00996B93 /* MyMusicTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045944E126FC440F00996B93 /* MyMusicTableViewController.swift */; };
+		045944E826FC641F00996B93 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045944E726FC641F00996B93 /* Song.swift */; };
+		045944EA26FC6F4C00996B93 /* HONNE_no_song_without_you.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 045944E926FC6F4C00996B93 /* HONNE_no_song_without_you.mp4 */; };
+		045944EC26FC78FC00996B93 /* PlayBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 045944EB26FC78FC00996B93 /* PlayBarView.xib */; };
+		045944F426FCCB3900996B93 /* HONNE_-_Warm_On_A_Cold_Night.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 045944F326FCCB3900996B93 /* HONNE_-_Warm_On_A_Cold_Night.mp4 */; };
+		045944F626FCCD1400996B93 /* HONNE_-_Me_&_You_◑.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 045944F526FCCD1400996B93 /* HONNE_-_Me_&_You_◑.mp4 */; };
+		045944F826FCD5EE00996B93 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045944F726FCD5EE00996B93 /* PlayerViewController.swift */; };
+		045944FA26FDADD200996B93 /* HONNE_-_la_la_la_that's_how_it_goes.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 045944F926FDADD200996B93 /* HONNE_-_la_la_la_that's_how_it_goes.mp4 */; };
+		045944FC26FDAE3E00996B93 /* HONNE_-_Day_1_◑.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 045944FB26FDAE3E00996B93 /* HONNE_-_Day_1_◑.mp4 */; };
+		045944FE26FDAF6400996B93 /* HONNE_-_NOW_I'M_ALONE_(Feat._Sofía_Valdés).mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 045944FD26FDAF6400996B93 /* HONNE_-_NOW_I'M_ALONE_(Feat._Sofía_Valdés).mp4 */; };
+		0459450026FDB40600996B93 /* HONNE_-_3am.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 045944FF26FDB40600996B93 /* HONNE_-_3am.mp4 */; };
+		0459450226FDB4D000996B93 /* HONNE_-_Just_Dance.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0459450126FDB4D000996B93 /* HONNE_-_Just_Dance.mp4 */; };
+		0459450426FDB6D800996B93 /* HONNE_-_I_Can_Give_You_Heaven.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0459450326FDB6D800996B93 /* HONNE_-_I_Can_Give_You_Heaven.mp4 */; };
+		0459450626FDB81700996B93 /* HONNE_-_Loves_The_Jobs_You_Hate_(Official_Video).mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0459450526FDB81700996B93 /* HONNE_-_Loves_The_Jobs_You_Hate_(Official_Video).mp4 */; };
+		0459450826FE596B00996B93 /* StatusEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0459450726FE596B00996B93 /* StatusEnum.swift */; };
+		045945DD270471C600996B93 /* PlayListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045945DC270471C600996B93 /* PlayListViewController.swift */; };
+		045945E627059F9C00996B93 /* SongsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045945E427059F9C00996B93 /* SongsTableViewCell.swift */; };
+		045945E727059F9C00996B93 /* SongsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 045945E527059F9C00996B93 /* SongsTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		045944CA26FC412800996B93 /* DemoMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		045944CD26FC412800996B93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		045944CF26FC412800996B93 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		045944D126FC412800996B93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		045944D426FC412800996B93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		045944D626FC412B00996B93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		045944D926FC412B00996B93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		045944DB26FC412C00996B93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		045944E126FC440F00996B93 /* MyMusicTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMusicTableViewController.swift; sourceTree = "<group>"; };
+		045944E726FC641F00996B93 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		045944E926FC6F4C00996B93 /* HONNE_no_song_without_you.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = HONNE_no_song_without_you.mp4; sourceTree = "<group>"; };
+		045944EB26FC78FC00996B93 /* PlayBarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayBarView.xib; sourceTree = "<group>"; };
+		045944F326FCCB3900996B93 /* HONNE_-_Warm_On_A_Cold_Night.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HONNE_-_Warm_On_A_Cold_Night.mp4"; sourceTree = "<group>"; };
+		045944F526FCCD1400996B93 /* HONNE_-_Me_&_You_◑.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HONNE_-_Me_&_You_◑.mp4"; sourceTree = "<group>"; };
+		045944F726FCD5EE00996B93 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		045944F926FDADD200996B93 /* HONNE_-_la_la_la_that's_how_it_goes.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HONNE_-_la_la_la_that's_how_it_goes.mp4"; sourceTree = "<group>"; };
+		045944FB26FDAE3E00996B93 /* HONNE_-_Day_1_◑.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HONNE_-_Day_1_◑.mp4"; sourceTree = "<group>"; };
+		045944FD26FDAF6400996B93 /* HONNE_-_NOW_I'M_ALONE_(Feat._Sofía_Valdés).mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HONNE_-_NOW_I'M_ALONE_(Feat._Sofía_Valdés).mp4"; sourceTree = "<group>"; };
+		045944FF26FDB40600996B93 /* HONNE_-_3am.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HONNE_-_3am.mp4"; sourceTree = "<group>"; };
+		0459450126FDB4D000996B93 /* HONNE_-_Just_Dance.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HONNE_-_Just_Dance.mp4"; sourceTree = "<group>"; };
+		0459450326FDB6D800996B93 /* HONNE_-_I_Can_Give_You_Heaven.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HONNE_-_I_Can_Give_You_Heaven.mp4"; sourceTree = "<group>"; };
+		0459450526FDB81700996B93 /* HONNE_-_Loves_The_Jobs_You_Hate_(Official_Video).mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HONNE_-_Loves_The_Jobs_You_Hate_(Official_Video).mp4"; sourceTree = "<group>"; };
+		0459450726FE596B00996B93 /* StatusEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusEnum.swift; sourceTree = "<group>"; };
+		045945DC270471C600996B93 /* PlayListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayListViewController.swift; sourceTree = "<group>"; };
+		045945E427059F9C00996B93 /* SongsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsTableViewCell.swift; sourceTree = "<group>"; };
+		045945E527059F9C00996B93 /* SongsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SongsTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +92,46 @@
 			children = (
 				045944CD26FC412800996B93 /* AppDelegate.swift */,
 				045944CF26FC412800996B93 /* SceneDelegate.swift */,
-				045944D126FC412800996B93 /* ViewController.swift */,
 				045944D326FC412800996B93 /* Main.storyboard */,
+				045945E327059F4000996B93 /* Xib */,
+				045945E227059EEB00996B93 /* Model */,
+				045944E126FC440F00996B93 /* MyMusicTableViewController.swift */,
+				045944F726FCD5EE00996B93 /* PlayerViewController.swift */,
+				045945DC270471C600996B93 /* PlayListViewController.swift */,
+				045945E427059F9C00996B93 /* SongsTableViewCell.swift */,
 				045944D626FC412B00996B93 /* Assets.xcassets */,
 				045944D826FC412B00996B93 /* LaunchScreen.storyboard */,
 				045944DB26FC412C00996B93 /* Info.plist */,
+				045944E926FC6F4C00996B93 /* HONNE_no_song_without_you.mp4 */,
+				045944F326FCCB3900996B93 /* HONNE_-_Warm_On_A_Cold_Night.mp4 */,
+				045944F526FCCD1400996B93 /* HONNE_-_Me_&_You_◑.mp4 */,
+				045944F926FDADD200996B93 /* HONNE_-_la_la_la_that's_how_it_goes.mp4 */,
+				045944FB26FDAE3E00996B93 /* HONNE_-_Day_1_◑.mp4 */,
+				045944FD26FDAF6400996B93 /* HONNE_-_NOW_I'M_ALONE_(Feat._Sofía_Valdés).mp4 */,
+				045944FF26FDB40600996B93 /* HONNE_-_3am.mp4 */,
+				0459450126FDB4D000996B93 /* HONNE_-_Just_Dance.mp4 */,
+				0459450326FDB6D800996B93 /* HONNE_-_I_Can_Give_You_Heaven.mp4 */,
+				0459450526FDB81700996B93 /* HONNE_-_Loves_The_Jobs_You_Hate_(Official_Video).mp4 */,
 			);
 			path = DemoMusic;
+			sourceTree = "<group>";
+		};
+		045945E227059EEB00996B93 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				045944E726FC641F00996B93 /* Song.swift */,
+				0459450726FE596B00996B93 /* StatusEnum.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		045945E327059F4000996B93 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				045945E527059F9C00996B93 /* SongsTableViewCell.xib */,
+				045944EB26FC78FC00996B93 /* PlayBarView.xib */,
+			);
+			path = Xib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +192,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0459450226FDB4D000996B93 /* HONNE_-_Just_Dance.mp4 in Resources */,
+				045944F426FCCB3900996B93 /* HONNE_-_Warm_On_A_Cold_Night.mp4 in Resources */,
+				045944EC26FC78FC00996B93 /* PlayBarView.xib in Resources */,
 				045944DA26FC412B00996B93 /* LaunchScreen.storyboard in Resources */,
+				045945E727059F9C00996B93 /* SongsTableViewCell.xib in Resources */,
+				045944FC26FDAE3E00996B93 /* HONNE_-_Day_1_◑.mp4 in Resources */,
 				045944D726FC412B00996B93 /* Assets.xcassets in Resources */,
 				045944D526FC412800996B93 /* Main.storyboard in Resources */,
+				045944F626FCCD1400996B93 /* HONNE_-_Me_&_You_◑.mp4 in Resources */,
+				0459450026FDB40600996B93 /* HONNE_-_3am.mp4 in Resources */,
+				045944FA26FDADD200996B93 /* HONNE_-_la_la_la_that's_how_it_goes.mp4 in Resources */,
+				0459450626FDB81700996B93 /* HONNE_-_Loves_The_Jobs_You_Hate_(Official_Video).mp4 in Resources */,
+				045944EA26FC6F4C00996B93 /* HONNE_no_song_without_you.mp4 in Resources */,
+				045944FE26FDAF6400996B93 /* HONNE_-_NOW_I'M_ALONE_(Feat._Sofía_Valdés).mp4 in Resources */,
+				0459450426FDB6D800996B93 /* HONNE_-_I_Can_Give_You_Heaven.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +217,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				045944D226FC412800996B93 /* ViewController.swift in Sources */,
+				045945E627059F9C00996B93 /* SongsTableViewCell.swift in Sources */,
+				045945DD270471C600996B93 /* PlayListViewController.swift in Sources */,
+				045944E826FC641F00996B93 /* Song.swift in Sources */,
 				045944CE26FC412800996B93 /* AppDelegate.swift in Sources */,
+				045944E226FC440F00996B93 /* MyMusicTableViewController.swift in Sources */,
 				045944D026FC412800996B93 /* SceneDelegate.swift in Sources */,
+				0459450826FE596B00996B93 /* StatusEnum.swift in Sources */,
+				045944F826FCD5EE00996B93 /* PlayerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,7 +301,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -272,7 +356,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
