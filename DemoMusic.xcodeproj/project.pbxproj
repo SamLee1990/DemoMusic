@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041F482D270B0B07003A995C /* HONNE_-_3am.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 041F482C270B0B07003A995C /* HONNE_-_3am.mp4 */; };
+		041F482F270B0B1D003A995C /* HONNE_-_NOW_I'M_ALONE_(Official_Lyric_Video).mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 041F482E270B0B1D003A995C /* HONNE_-_NOW_I'M_ALONE_(Official_Lyric_Video).mp4 */; };
+		041F4831270B0B2E003A995C /* HONNE_-_Just_Dance.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 041F4830270B0B2E003A995C /* HONNE_-_Just_Dance.mp4 */; };
+		041F4833270B0B3C003A995C /* HONNE_-_I_Can_Give_You_Heaven.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 041F4832270B0B3C003A995C /* HONNE_-_I_Can_Give_You_Heaven.mp4 */; };
+		041F4835270B0B4C003A995C /* HONNE_-_Loves_The_Jobs_You_Hate_(Official_Video).mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 041F4834270B0B4C003A995C /* HONNE_-_Loves_The_Jobs_You_Hate_(Official_Video).mp4 */; };
 		045944CE26FC412800996B93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045944CD26FC412800996B93 /* AppDelegate.swift */; };
 		045944D026FC412800996B93 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045944CF26FC412800996B93 /* SceneDelegate.swift */; };
 		045944D526FC412800996B93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045944D326FC412800996B93 /* Main.storyboard */; };
@@ -21,11 +26,6 @@
 		045944F826FCD5EE00996B93 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045944F726FCD5EE00996B93 /* PlayerViewController.swift */; };
 		045944FA26FDADD200996B93 /* HONNE_-_la_la_la_that's_how_it_goes.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 045944F926FDADD200996B93 /* HONNE_-_la_la_la_that's_how_it_goes.mp4 */; };
 		045944FC26FDAE3E00996B93 /* HONNE_-_Day_1_◑.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 045944FB26FDAE3E00996B93 /* HONNE_-_Day_1_◑.mp4 */; };
-		045944FE26FDAF6400996B93 /* HONNE_-_NOW_I'M_ALONE_(Feat._Sofía_Valdés).mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 045944FD26FDAF6400996B93 /* HONNE_-_NOW_I'M_ALONE_(Feat._Sofía_Valdés).mp4 */; };
-		0459450026FDB40600996B93 /* HONNE_-_3am.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 045944FF26FDB40600996B93 /* HONNE_-_3am.mp4 */; };
-		0459450226FDB4D000996B93 /* HONNE_-_Just_Dance.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0459450126FDB4D000996B93 /* HONNE_-_Just_Dance.mp4 */; };
-		0459450426FDB6D800996B93 /* HONNE_-_I_Can_Give_You_Heaven.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0459450326FDB6D800996B93 /* HONNE_-_I_Can_Give_You_Heaven.mp4 */; };
-		0459450626FDB81700996B93 /* HONNE_-_Loves_The_Jobs_You_Hate_(Official_Video).mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0459450526FDB81700996B93 /* HONNE_-_Loves_The_Jobs_You_Hate_(Official_Video).mp4 */; };
 		0459450826FE596B00996B93 /* StatusEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0459450726FE596B00996B93 /* StatusEnum.swift */; };
 		045945DD270471C600996B93 /* PlayListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045945DC270471C600996B93 /* PlayListViewController.swift */; };
 		045945E627059F9C00996B93 /* SongsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045945E427059F9C00996B93 /* SongsTableViewCell.swift */; };
@@ -33,6 +33,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		041F482C270B0B07003A995C /* HONNE_-_3am.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HONNE_-_3am.mp4"; sourceTree = "<group>"; };
+		041F482E270B0B1D003A995C /* HONNE_-_NOW_I'M_ALONE_(Official_Lyric_Video).mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HONNE_-_NOW_I'M_ALONE_(Official_Lyric_Video).mp4"; sourceTree = "<group>"; };
+		041F4830270B0B2E003A995C /* HONNE_-_Just_Dance.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HONNE_-_Just_Dance.mp4"; sourceTree = "<group>"; };
+		041F4832270B0B3C003A995C /* HONNE_-_I_Can_Give_You_Heaven.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HONNE_-_I_Can_Give_You_Heaven.mp4"; sourceTree = "<group>"; };
+		041F4834270B0B4C003A995C /* HONNE_-_Loves_The_Jobs_You_Hate_(Official_Video).mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HONNE_-_Loves_The_Jobs_You_Hate_(Official_Video).mp4"; sourceTree = "<group>"; };
 		045944CA26FC412800996B93 /* DemoMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		045944CD26FC412800996B93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		045944CF26FC412800996B93 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,11 +54,6 @@
 		045944F726FCD5EE00996B93 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 		045944F926FDADD200996B93 /* HONNE_-_la_la_la_that's_how_it_goes.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HONNE_-_la_la_la_that's_how_it_goes.mp4"; sourceTree = "<group>"; };
 		045944FB26FDAE3E00996B93 /* HONNE_-_Day_1_◑.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HONNE_-_Day_1_◑.mp4"; sourceTree = "<group>"; };
-		045944FD26FDAF6400996B93 /* HONNE_-_NOW_I'M_ALONE_(Feat._Sofía_Valdés).mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HONNE_-_NOW_I'M_ALONE_(Feat._Sofía_Valdés).mp4"; sourceTree = "<group>"; };
-		045944FF26FDB40600996B93 /* HONNE_-_3am.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HONNE_-_3am.mp4"; sourceTree = "<group>"; };
-		0459450126FDB4D000996B93 /* HONNE_-_Just_Dance.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HONNE_-_Just_Dance.mp4"; sourceTree = "<group>"; };
-		0459450326FDB6D800996B93 /* HONNE_-_I_Can_Give_You_Heaven.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HONNE_-_I_Can_Give_You_Heaven.mp4"; sourceTree = "<group>"; };
-		0459450526FDB81700996B93 /* HONNE_-_Loves_The_Jobs_You_Hate_(Official_Video).mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HONNE_-_Loves_The_Jobs_You_Hate_(Official_Video).mp4"; sourceTree = "<group>"; };
 		0459450726FE596B00996B93 /* StatusEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusEnum.swift; sourceTree = "<group>"; };
 		045945DC270471C600996B93 /* PlayListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayListViewController.swift; sourceTree = "<group>"; };
 		045945E427059F9C00996B93 /* SongsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsTableViewCell.swift; sourceTree = "<group>"; };
@@ -107,11 +107,11 @@
 				045944F526FCCD1400996B93 /* HONNE_-_Me_&_You_◑.mp4 */,
 				045944F926FDADD200996B93 /* HONNE_-_la_la_la_that's_how_it_goes.mp4 */,
 				045944FB26FDAE3E00996B93 /* HONNE_-_Day_1_◑.mp4 */,
-				045944FD26FDAF6400996B93 /* HONNE_-_NOW_I'M_ALONE_(Feat._Sofía_Valdés).mp4 */,
-				045944FF26FDB40600996B93 /* HONNE_-_3am.mp4 */,
-				0459450126FDB4D000996B93 /* HONNE_-_Just_Dance.mp4 */,
-				0459450326FDB6D800996B93 /* HONNE_-_I_Can_Give_You_Heaven.mp4 */,
-				0459450526FDB81700996B93 /* HONNE_-_Loves_The_Jobs_You_Hate_(Official_Video).mp4 */,
+				041F482C270B0B07003A995C /* HONNE_-_3am.mp4 */,
+				041F482E270B0B1D003A995C /* HONNE_-_NOW_I'M_ALONE_(Official_Lyric_Video).mp4 */,
+				041F4830270B0B2E003A995C /* HONNE_-_Just_Dance.mp4 */,
+				041F4832270B0B3C003A995C /* HONNE_-_I_Can_Give_You_Heaven.mp4 */,
+				041F4834270B0B4C003A995C /* HONNE_-_Loves_The_Jobs_You_Hate_(Official_Video).mp4 */,
 			);
 			path = DemoMusic;
 			sourceTree = "<group>";
@@ -192,7 +192,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0459450226FDB4D000996B93 /* HONNE_-_Just_Dance.mp4 in Resources */,
 				045944F426FCCB3900996B93 /* HONNE_-_Warm_On_A_Cold_Night.mp4 in Resources */,
 				045944EC26FC78FC00996B93 /* PlayBarView.xib in Resources */,
 				045944DA26FC412B00996B93 /* LaunchScreen.storyboard in Resources */,
@@ -200,13 +199,14 @@
 				045944FC26FDAE3E00996B93 /* HONNE_-_Day_1_◑.mp4 in Resources */,
 				045944D726FC412B00996B93 /* Assets.xcassets in Resources */,
 				045944D526FC412800996B93 /* Main.storyboard in Resources */,
+				041F482F270B0B1D003A995C /* HONNE_-_NOW_I'M_ALONE_(Official_Lyric_Video).mp4 in Resources */,
+				041F482D270B0B07003A995C /* HONNE_-_3am.mp4 in Resources */,
+				041F4833270B0B3C003A995C /* HONNE_-_I_Can_Give_You_Heaven.mp4 in Resources */,
 				045944F626FCCD1400996B93 /* HONNE_-_Me_&_You_◑.mp4 in Resources */,
-				0459450026FDB40600996B93 /* HONNE_-_3am.mp4 in Resources */,
+				041F4835270B0B4C003A995C /* HONNE_-_Loves_The_Jobs_You_Hate_(Official_Video).mp4 in Resources */,
 				045944FA26FDADD200996B93 /* HONNE_-_la_la_la_that's_how_it_goes.mp4 in Resources */,
-				0459450626FDB81700996B93 /* HONNE_-_Loves_The_Jobs_You_Hate_(Official_Video).mp4 in Resources */,
+				041F4831270B0B2E003A995C /* HONNE_-_Just_Dance.mp4 in Resources */,
 				045944EA26FC6F4C00996B93 /* HONNE_no_song_without_you.mp4 in Resources */,
-				045944FE26FDAF6400996B93 /* HONNE_-_NOW_I'M_ALONE_(Feat._Sofía_Valdés).mp4 in Resources */,
-				0459450426FDB6D800996B93 /* HONNE_-_I_Can_Give_You_Heaven.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

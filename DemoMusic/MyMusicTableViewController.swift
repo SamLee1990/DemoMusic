@@ -81,7 +81,7 @@ class MyMusicTableViewController: UITableViewController {
         songs.append(Song(songName: "3am", singerName: "HONNE", albumName: "Warm on a Cold Night - Deluxe", fileName: "HONNE_-_3am", totalTimesWithSecond: 228))
         songs.append(Song(songName: "Me & You ◑", singerName: "HONNE", albumName: "Me & You ◑ | I Just Wanna Go Back ◐", fileName: "HONNE_-_Me_&_You_◑", totalTimesWithSecond: 244))
         songs.append(Song(songName: "Day 1 ◑", singerName: "HONNE", albumName: "Love Me | Love Me Not", fileName: "HONNE_-_Day_1_◑", totalTimesWithSecond: 234))
-        songs.append(Song(songName: "NOW I'M ALONE (feat. Sofía Valdés)", singerName: "HONNE", albumName: "PART 1: WWYD?", fileName: "HONNE_-_NOW_I'M_ALONE_(Feat._Sofía_Valdés)", totalTimesWithSecond: 225))
+        songs.append(Song(songName: "NOW I'M ALONE (feat. Sofía Valdés)", singerName: "HONNE", albumName: "PART 1: WWYD?", fileName: "HONNE_-_NOW_I'M_ALONE_(Official_Lyric_Video)", totalTimesWithSecond: 225))
         songs.append(Song(songName: "Just Dance", singerName: "HONNE", albumName: "Just Dance", fileName: "HONNE_-_Just_Dance", totalTimesWithSecond: 213))
         songs.append(Song(songName: "I Can Give You Heaven", singerName: "HONNE", albumName: "Over Lover EP", fileName: "HONNE_-_I_Can_Give_You_Heaven", totalTimesWithSecond: 249))
         songs.append(Song(songName: "Loves the Jobs You Hate", singerName: "HONNE", albumName: "Over Lover EP", fileName: "HONNE_-_Loves_The_Jobs_You_Hate_(Official_Video)", totalTimesWithSecond: 225))
