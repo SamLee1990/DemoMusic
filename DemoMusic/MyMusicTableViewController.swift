@@ -250,14 +250,18 @@ extension MyMusicTableViewController {
                 playBarView.translatesAutoresizingMaskIntoConstraints = false
                 tableView.addSubview(playBarView)
                 //constraint
-                let playButtonHeight:CGFloat = 56
+                var playButtonHeight:CGFloat = 56
+                if let bottomPadding = view.window?.safeAreaInsets.bottom {
+                    playButtonHeight += bottomPadding
+                }
                 playBarView.heightAnchor.constraint(equalToConstant: playButtonHeight).isActive = true
                 playBarView.leadingAnchor.constraint(equalTo: tableView.frameLayoutGuide.leadingAnchor, constant: 0).isActive = true
                 playBarView.trailingAnchor.constraint(equalTo: tableView.frameLayoutGuide.trailingAnchor, constant: 0).isActive = true
-                playBarView.bottomAnchor.constraint(equalTo: tableView.frameLayoutGuide.owningView!.safeAreaLayoutGuide.bottomAnchor, constant: 0).isActive = true
+//                playBarView.bottomAnchor.constraint(equalTo: tableView.frameLayoutGuide.owningView!.safeAreaLayoutGuide.bottomAnchor, constant: 0).isActive = true
+                playBarView.bottomAnchor.constraint(equalTo: tableView.frameLayoutGuide.bottomAnchor, constant: 0).isActive = true
                 //漸層
                 let gradientLayer = CAGradientLayer()
-                gradientLayer.frame = playBarView.bounds
+                gradientLayer.frame = CGRect(x: 0, y: 0, width: playBarView.bounds.width, height: playButtonHeight)
                 gradientLayer.colors = [
                     UIColor(red: 162/255, green: 128/255, blue: 215/255, alpha: 0.6).cgColor,
                     UIColor(red: 205/255, green: 240/255, blue: 137/255, alpha: 0.6).cgColor
@@ -267,9 +271,6 @@ extension MyMusicTableViewController {
                 playBarView.layer.insertSublayer(gradientLayer, at: 0)
                 //畫面往上移
                 var contentInsetBottom: CGFloat = playButtonHeight
-                if let safeAreaInsetsBottom = tableView.frameLayoutGuide.owningView?.safeAreaInsets.bottom {
-                    contentInsetBottom += safeAreaInsetsBottom
-                }
                 tableView.contentInset = UIEdgeInsets(top: 0, left: 0, bottom: contentInsetBottom, right: 0)
                 //設定play bar資訊
                 if let imageView = playBarView.subviews[0] as? UIImageView,
