@@ -270,8 +270,7 @@ extension MyMusicTableViewController {
                 gradientLayer.endPoint = CGPoint(x: 1, y: 0.5)
                 playBarView.layer.insertSublayer(gradientLayer, at: 0)
                 //畫面往上移
-                var contentInsetBottom: CGFloat = playButtonHeight
-                tableView.contentInset = UIEdgeInsets(top: 0, left: 0, bottom: contentInsetBottom, right: 0)
+                tableView.contentInset = UIEdgeInsets(top: 0, left: 0, bottom: 56, right: 0)
                 //設定play bar資訊
                 if let imageView = playBarView.subviews[0] as? UIImageView,
                    let songNameLabel = playBarView.subviews[1] as? UILabel,
@@ -323,7 +322,7 @@ extension MyMusicTableViewController {
         } else {
             playList = songs
         }
-        doPlaySong()
+//        doPlaySong()
         setPlayBarView(playList[0])
         let playAndPauseButton = playBarView.subviews[4] as! UIButton
         playAndPauseButton.setImage(UIImage(systemName: "pause.circle"), for: .normal)
