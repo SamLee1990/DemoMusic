@@ -225,7 +225,6 @@ extension MyMusicTableViewController {
             topPlayButtonView.clipsToBounds = true
             topPlayButtonView.layer.cornerRadius = topPlayButtonViewHeight / 2
             //constraints
-            let topPlayButtonViewHeight:CGFloat = 50
             topPlayButtonView.heightAnchor.constraint(equalToConstant: topPlayButtonViewHeight).isActive = true
             leadingAnchorConstraint = topPlayButtonView.leadingAnchor.constraint(equalTo: tableView.frameLayoutGuide.leadingAnchor, constant: 20)
             leadingAnchorConstraint.isActive = true
